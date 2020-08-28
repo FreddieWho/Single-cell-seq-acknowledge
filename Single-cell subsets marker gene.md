@@ -25,8 +25,9 @@ GPR183,CD69,KLF2,DUSP2,EOMES,KLRC1
 ## Suppressive Treg(aTreg)
 CD4,CTLA4,CCR8,TNFRSF4,IL2RA
 ## Resting Treg(rTreg)
+RTKN2
 ## T helper 17(Th17)
-IL26,IL17
+IL26,IL17,IL18,CD200,CD99,BTLA
 ## Follicular helper T(Tfh)
 CD200,CXCR5,CD84,IL21,BCL6
 ## NKT
@@ -44,7 +45,6 @@ IGKC,JCHAIN
 CCL22,CD86 
 ## Myeloid DC(mDC)
 ITGAX,ITGAM,ANPEP,CD33,CD14-,CD16-
-
 # plasmacytoid DC(pDC)
 CLEC4C,BDCA2,BDCA4,IL3RA,IRF4,IRF8,IRF7,LILRB4,NRP1
 
@@ -55,17 +55,50 @@ EPCAM,BCAM,TP63
 # Cancer-associated fibroblast(CAF)
 FAP,STC1,ASPN,S100A4,PDGFRB,DES,VIM,NG2
 
-# Myofibroblast
-MYL9
-
 # Endothelial cell
-VWF,PECAM1
+VWF,PECAM1,PTPRB
+## Venous
+EMCN,EPHB4,FLT4,LEFTY1,LEFTY2,NRP2
+## Arterial
+EFNB2,NRP1,VEGF,EPAS
+## Lymphatic
+LYVE1,VEGFR3,PROX1
+## Glomerular
+AQP1,SEMA3G,CLDN5,SLC14A1,PLVAP
+## Descending vasa
+KDR,AQP1,SEMA3G,CLDN5,SLC14A1
+## Ascending vasa
+KDR,AQP1,SEMA3G,CLDN5,SLC14A1,PLVAP
+
 
 # Melanocytes
 PMEL
 
 # Fibroblast
-COL1A2
+COL1A2,MMP2,EMILIN1,SFRP2
+
+# Ganglia
+SCG2,CHGB,STMN2
+
+# Myofibroblast
+MYL9,acta2,pdgfrb
 
 # Macrophage
-FCGR2A
+FCGR2A,C1QC
+
+# Mast
+TPSAB1,CPA3,TPSB2
+
+# Kidney
+## Glomerulus(Podocytes)
+WT1,PODXL,PTPRO
+## Proximal tubules()
+SLC22A8,SLC17A3,SLC22A7,SLC16A9,SLC7A13,SLC34A1,SLC13A3
+## Distal tubules(Distal/Principal)
+KCNJ1,SLC8A1,AVPR2,CLDN8,AQP2
+## Collecting duct(TypeA,TypeB)
+CLCNKB,ATP6V0D2,SLC26A4,SLC4A1
+## Pelvic epithelium
+SAA2,KRT23
+## Ureter(Basal + intermdiate)|(Superficial)
+KRT5,PVRL4,TP63|S100P,DHRS2,UPK1A,UPK1B

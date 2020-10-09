@@ -31,7 +31,7 @@ GZMK,CCL4,CCL3L3,KLRD1
 
 ## Tissue resident memory(rm)
 
-ZNF683,FABP5,ITGA1,ITGAE,LITAF,CXCR6
+ZNF683,FABP5,ITGA1,ITGAE,LITAF,CXCR6, 
 
 ## Central memory(cm)
 
@@ -43,11 +43,11 @@ SCL4A10,KLRB1,ZBTB16,NCR3
 
 ## Terminally differentiated effector cell(term)
 
-CX3CR1,NKG7,FGFBP2,PRF1
+CX3CR1,NKG7,FGFBP2,PRF1,S1PR5
 
 ## Memory(mem)
 
-GPR183,CD69,KLF2,DUSP2,EOMES,KLRC1
+GPR183,CD69,KLF2,DUSP2,EOMES,KLRC1(decreased cytotoxic signature)
 
 ## Suppressive Treg(aTreg)
 

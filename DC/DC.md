@@ -86,3 +86,4 @@ Tumor and immune cells produce IL6;
 High expression of TIM3 prevented immunogeniccell death by sequesters HMGB1;  
 Tumor-expressed CD47 inhibit the detection of cancer cell-released MT DNA by SIRP-alpha;  
 Versican(encode by VCAN)
+seqtk trimfq -b 0 -e 100 E100004003_L01_read_2.fq.gz |gzip - > trimed_R2.fq.gz

@@ -10,7 +10,7 @@ TNFRSF18:GITR
 
 ## Naive(naive)
 
-SELL,CCR2,CCR7,CD62L
+SELL,CCR2,CCR7,CD62L,CD27
 
 ## Exhausted(ex)
 
@@ -27,7 +27,7 @@ IFNG,TNF,KLRC1
 
 ## Effector memory(em)
 
-GZMK,CCL4,CCL3L3,KLRD1
+GZMK,CCL4,CCL3L3,KLRD1,CD74
 
 ## Tissue resident memory(rm)
 
@@ -47,7 +47,7 @@ CX3CR1,NKG7,FGFBP2,PRF1,S1PR5
 
 ## Memory(mem)
 
-GPR183,CD69,KLF2,DUSP2,EOMES,KLRC1(decreased cytotoxic signature)
+GPR183,CD69,KLF2,DUSP2,EOMES,KLRC1(decreased cytotoxic signature),CD27(CD4)
 
 ## Suppressive Treg(aTreg)
 

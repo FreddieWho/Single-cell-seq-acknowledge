@@ -103,7 +103,7 @@ KLRD1,KLRC1
 
 # B
 
-CD79A,CD19, MS4A1
+CD79A,CD19, MS4A1(CD20,mature indicator)
 
 ## Plasma
 

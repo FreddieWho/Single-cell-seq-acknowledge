@@ -167,6 +167,16 @@ KDR,AQP1,SEMA3G,CLDN5,SLC14A1
 
 KDR,AQP1,SEMA3G,CLDN5,SLC14A1,PLVAP
 
+## High endothelial venule(HEV),
+
+### conventional
+
+CDH5, PECAM1, NR2F2 ,CD34, EMCN, LTBR, ICAM1/2, VCAM1
+
+### Tumor associated HEV
+- SELP, SELE, CXCL9, CXCL10, VCAN, TNFRSF9
+- Exclusive: FUT7, GCNT1, CHST4, CCL21A
+
 # Melanocytes
 
 PMEL

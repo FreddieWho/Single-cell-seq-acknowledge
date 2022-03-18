@@ -133,11 +133,15 @@ CLEC4C,BDCA2,BDCA4,IL3RA,IRF4,IRF8,IRF7,LILRB4,NRP1
 
 ## Basal cell carcinoma(BCC)
 
-EPCAM,BCAM,TP63
+EPCAM,BCAM,TP63,KRT17
 
 # Cancer-associated fibroblast(CAF)
 
 FAP,STC1,ASPN,S100A4,PDGFRB,DES,VIM,NG2
+
+# Pericyte
+
+PDGFRB
 
 # Endothelial cell
 
